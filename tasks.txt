@@ -1,0 +1,22 @@
+Petrol Station Project Overview
+The Petrol Station project is a Django-based web application designed to manage and operate a network of petrol stations. It includes models for different types of fuel (petrol, gas, and electric), and provides an API to manage petrol stations, fuel types, fuel prices, vehicles, and refueling records. The project leverages Django REST Framework to create a robust API for interacting with the database models.
+
+
+Petrol Stations Management:
+Create, read, update, and delete petrol stations.
+Store details such as name, location, and opening hours.
+
+Fuel Types Management:
+Manage different types of fuel: petrol, gas, and electric.
+Store details about fuel types.
+
+Fuel Prices Management:
+Manage fuel prices for each fuel type.
+Keep track of price changes and update dates.
+
+Vehicle Management:
+Register vehicles with details such as type, license plate, owner name, and fuel type.
+Track the last refuel date.
+
+Refuel Records Management:
+Record details of each refueling event, including vehicle, fuel type, amount, date, and price paid.
