@@ -3,6 +3,8 @@ from django.db import models
 class PetrolStation(models.Model):
     name = models.CharField(max_length=100)
     location = models.CharField(max_length=150)
+    latitude = models.DecimalField(max_digits=9, decimal_places=6)
+    longitude = models.DecimalField(max_digits=9, decimal_places=6)
     start_work = models.DateTimeField()
     end_work = models.DateTimeField()
 
